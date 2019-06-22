@@ -1,0 +1,28 @@
+/* Base Typography*/
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: $xxx-large;
+    font-family: $pt-mono;
+}
+
+h2 {
+    font-size: $xx-large;
+    font-family: $pt-mono;
+}
+
+h3 {
+    font-size: $x-large;
+}
+
+h4 {
+    font-size: $large;
+}
+
+p {
+    font-size: $medium;
+    font-family: $roboto;
+    font-weight: $light;
+}

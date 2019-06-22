@@ -1,0 +1,102 @@
+.main {
+  width: 100vw;
+  height: auto;
+  &__container-top {
+    width: 100vw;
+    height: 55vh;
+  }
+  &__image-top {
+    width: 70vw;
+    height: 55vh;
+    background-image: url("../img/img-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 10em;
+    float: left;
+    position: relative;
+  }
+  &__info {
+    width: 52%;
+    height: 30%;
+    background-color: $isabelline;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  &__text {
+    width: 30vw;
+    height: 55vh;
+    background-color: aqua;
+    float: left;
+    position: relative;
+    padding: 3rem 0 0 5rem;
+    h4 {
+      margin-top: 0.8rem;
+      font-weight: $light;
+    }
+  }
+  &__square-yellow {
+    width: 35%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #eacb31;
+  }
+  &__square-orange {
+    width: 35%;
+    height: 30%;
+    position: absolute;
+    bottom: 1rem;
+    left: -1rem;
+    background-color: $flame;
+    i {
+      margin-top: 25%;
+      margin-left: 25%;
+      color: $white;
+    }
+  }
+
+  &__container-bottom {
+    width: 100vw;
+    height: 33vh;
+    background-color: violet;
+  }
+  &__bottom-left {
+    width: 70vw;
+    height: 33vh;
+    background-color: chartreuse;
+    float: left;
+    position: relative;
+  }
+  &__text-bottom {
+    width: 35%;
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    margin-left: 1rem;
+    h3 {
+      font-family: $pt-mono;
+      margin-bottom: 1rem;
+    }
+  }
+  &__rectangle-blue {
+    width: 52%;
+    height: 88%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $blue-de-france;
+  }
+  &__image-bottom {
+    width: 30vw;
+    height: 33vh;
+    background-image: url("../img/img-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 10em;
+    float: left;
+  }
+}

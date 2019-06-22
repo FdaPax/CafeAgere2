@@ -1,0 +1,26 @@
+.btn {
+  color: $spanish-gray;
+  border: 1px solid $spanish-gray;
+  font-size: $medium;
+  font-family: $pt-mono;
+  padding: .3rem;
+  margin-left: 9rem;
+
+  &:hover {
+    color: $outer-space;
+    border: 1px solid $outer-space;
+  }
+
+  &--color {
+    color: $white;
+    border: 1px solid $shiny-shamrock;
+    background-color: $shiny-shamrock;
+    font-size: $medium;
+    margin-left: 3rem;
+    &:hover {
+      color: $quick-silver;
+      border: 1px solid $turquoise-green;
+      background-color: $turquoise-green;
+    }
+  }
+}

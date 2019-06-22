@@ -1,0 +1,27 @@
+nav .container {
+  padding: 0px;
+  margin: 0;
+  margin-left: 4rem;
+}
+
+.navbar {
+  &__logo {
+    width: 30%;
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $spanish-gray;
+  font-family: $pt-mono;
+  margin-right: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: $outer-space;
+}
+
+.navbar-nav {
+    margin-right: 22rem;
+}
